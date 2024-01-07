@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-parimary{
+    border-radius: 5px;
+    background: #F15B22;
+    border: 2px solid transparent;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.btn-parimary:hover{
+    color: #F15B22;
+    background-color: #FFF;
+    border: 2px solid #F15B22;
+}
+
+/* header related style */
+
+.header{
+    height: 100vh;
+    background: url(/images/banner/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 215px 220px 160px 0px;
+}
+.header-content{
+    text-align: end;
+    width: 525px;
+}
+.header-text-title{
+    line-height: 65px;
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+.all-text-description{
+    margin: 28px 0;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+main{
+    padding: 135px 230px;
+}
+
+.my-failures-section{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    padding: 200px 50px 40px 50px;
+}
+.my-failures-img{
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    background: rgba(241, 91, 34, 0.20);
+}
+.my-failures-img > img{
+    width: 500px;
+    margin-top: -106px;
+}
+
+.my-failures-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+}
+.my-failures-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 416px;
+}
+label{
+    display: block;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.my-plans-section{
+    margin: 100px 0;
+}
+.primary-title{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-plan-list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.column{
+    width: 100%;
+}
+.column > img{
+    width: 85px;
+    margin: 0 90px;
+}
+.column > h3{
+    color: #151414;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.column > p{
+    color: #737272;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img-section{
+    height: 50vh;
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    padding: 60px 0px 60px 65px;
+}
+
+.img-section > h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 500px;
+}
+.img-section > button{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+    padding: 20px 35px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    padding: 130px 230px;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 300px;
+}
+.future > h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.future > p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 480px;
+    margin: 20px 0;
+}
+.future > .icons > a{
+    margin-right: 20px;
+}
+.subscribe > h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+.subscribe > input[type="email"]{
+    border: 1px solid white;
+    padding: 20px;
+    margin: 15px 0;
+    display: block;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
